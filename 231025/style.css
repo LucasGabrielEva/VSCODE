@@ -1,0 +1,21 @@
+h1,h3{
+    color:rgb(236, 4, 4);
+}
+img{
+    width: 150px;
+    height: 150px;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(assets/3123185-sabre-neon-brilho-cor-fluindo-retangulo-fundo-gratis-foto.jpg);
+}
+.index h1{
+    font-size: 100px;
+}
+.lista_numerada h3{
+    font-size: 50px;
+}
