@@ -1,0 +1,9 @@
+.mensagem h1{
+    color: rgba(12, 110, 223, 0.747);
+    margin: 10px 0;
+}
+
+.mensagem p {
+    color: black;
+    margin: 10px 0;
+}
