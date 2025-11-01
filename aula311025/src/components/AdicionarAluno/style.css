@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Fundo e layout principal */
+body {
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  color: #333;
+}
+
+/* Container principal */
+div {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 480px;
+  animation: fadeIn 0.4s ease;
+}
+
+/* Títulos */
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #6b73ff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(107, 115, 255, 0.4);
+}
+
+/* Botão */
+button {
+  padding: 12px;
+  background-color: #6b73ff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #4e56d1;
+  transform: scale(1.03);
+}
+
+/* Lista de alunos */
+ul {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+ol {
+  background: #f7f8ff;
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-left: 4px solid #6b73ff;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Linha divisória */
+hr {
+  border: none;
+  height: 2px;
+  background: #eee;
+  margin: 25px 0;
+}
+
+/* Animação suave de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
